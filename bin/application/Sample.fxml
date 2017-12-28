@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button fx:id="MEX" layoutX="31.0" layoutY="241.0" mnemonicParsing="false" onAction="#buttonMEX_click" prefHeight="23.0" prefWidth="48.0" text="M/EX" />
+      <Button fx:id="Persent" layoutX="95.0" layoutY="241.0" mnemonicParsing="false" onAction="#buttonPersent_click" prefHeight="23.0" prefWidth="48.0" text="\%" />
+      <Button fx:id="SquareRoot" layoutX="158.0" layoutY="241.0" mnemonicParsing="false" onAction="#buttonSquareRoot_click" prefHeight="23.0" prefWidth="48.0" text="√" />
+      <Button fx:id="Arrow" layoutX="218.0" layoutY="241.0" mnemonicParsing="false" onAction="#buttonArrow_click" prefHeight="23.0" prefWidth="48.0" text="-&gt;" />
+      <Button fx:id="GT" layoutX="285.0" layoutY="241.0" mnemonicParsing="false" onAction="#buttonGT_click" prefHeight="23.0" prefWidth="48.0" text="GT" />
+      <Button fx:id="MC" layoutX="31.0" layoutY="283.0" mnemonicParsing="false" onAction="#buttonMC_click" prefHeight="30.0" prefWidth="48.0" text="MC" />
+      <Button fx:id="PlusMinus" layoutX="31.0" layoutY="326.0" mnemonicParsing="false" onAction="#buttonPlusMinus_click" prefHeight="30.0" prefWidth="48.0" text="+/-" />
+      <Button fx:id="C" layoutX="31.0" layoutY="371.0" mnemonicParsing="false" onAction="#buttonC_click" prefHeight="30.0" prefWidth="48.0" text="C" textFill="#a81070" />
+      <Button fx:id="AC" layoutX="31.0" layoutY="418.0" mnemonicParsing="false" onAction="#buttonAC_click" prefHeight="30.0" prefWidth="48.0" text="AC" textFill="#a81070" />
+      <Button fx:id="Button0" layoutX="31.0" layoutY="464.0" mnemonicParsing="false" onAction="#button0_click" prefHeight="30.0" prefWidth="54.0" text="0" />
+      <Button fx:id="MR" layoutX="95.0" layoutY="283.0" mnemonicParsing="false" onAction="#buttonMR_click" prefHeight="30.0" prefWidth="48.0" text="MR" />
+      <Button fx:id="Button7" layoutX="95.0" layoutY="326.0" mnemonicParsing="false" onAction="#button7_click" prefHeight="30.0" prefWidth="48.0" text="7" />
+      <Button fx:id="Button4" layoutX="95.0" layoutY="371.0" mnemonicParsing="false" onAction="#button4_click" prefHeight="30.0" prefWidth="48.0" text="4" />
+      <Button fx:id="Button1" layoutX="95.0" layoutY="418.0" mnemonicParsing="false" onAction="#button1_click" prefHeight="30.0" prefWidth="48.0" text="1" />
+      <Button fx:id="Button00" layoutX="95.0" layoutY="464.0" mnemonicParsing="false" onAction="#button00_click" prefHeight="30.0" prefWidth="48.0" text="00" />
+      <Button fx:id="MMinus" layoutX="158.0" layoutY="283.0" mnemonicParsing="false" onAction="#buttonMMinus_click" prefHeight="30.0" prefWidth="48.0" text="M-" />
+      <Button fx:id="Button8" layoutX="158.0" layoutY="326.0" mnemonicParsing="false" onAction="#button8_click" prefHeight="30.0" prefWidth="48.0" text="8" />
+      <Button fx:id="Button5" layoutX="160.0" layoutY="371.0" mnemonicParsing="false" onAction="#button5_click" prefHeight="30.0" prefWidth="48.0" text="5" />
+      <Button fx:id="Button2" layoutX="160.0" layoutY="418.0" mnemonicParsing="false" onAction="#button2_click" prefHeight="30.0" prefWidth="48.0" text="2" />
+      <Button fx:id="Point" layoutX="160.0" layoutY="464.0" mnemonicParsing="false" onAction="#buttonPoint_click" prefHeight="30.0" prefWidth="48.0" text="." />
+      <Button fx:id="MPlus" layoutX="218.0" layoutY="283.0" mnemonicParsing="false" onAction="#buttonMPlus_click" prefHeight="30.0" prefWidth="48.0" text="M+" />
+      <Button fx:id="Button9" layoutX="218.0" layoutY="326.0" mnemonicParsing="false" onAction="#button9_click" prefHeight="30.0" prefWidth="48.0" text="9" />
+      <Button fx:id="Button6" layoutX="218.0" layoutY="371.0" mnemonicParsing="false" onAction="#button6_click" prefHeight="30.0" prefWidth="48.0" text="6" />
+      <Button fx:id="Button3" layoutX="218.0" layoutY="418.0" mnemonicParsing="false" onAction="#button3_click" prefHeight="30.0" prefWidth="48.0" text="3" />
+      <Button fx:id="Equal" layoutX="218.0" layoutY="464.0" mnemonicParsing="false" onAction="#buttonEqual_click" prefHeight="30.0" prefWidth="48.0" text="=" />
+      <Button fx:id="Divide" layoutX="285.0" layoutY="283.0" mnemonicParsing="false" onAction="#buttonDivide_click" prefHeight="30.0" prefWidth="48.0" text="/" />
+      <Button layoutX="285.0" layoutY="326.0" mnemonicParsing="false" onAction="#buttonMultiply_click" prefHeight="30.0" prefWidth="48.0" text="*" />
+      <Button layoutX="285.0" layoutY="371.0" mnemonicParsing="false" onAction="#buttonMinus_click" prefHeight="30.0" prefWidth="48.0" text="-" />
+      <Button fx:id="Plus" layoutX="285.0" layoutY="418.0" mnemonicParsing="false" onAction="#buttonPlus_click" prefHeight="76.0" prefWidth="48.0" text="+" />
+      <Label fx:id="Display" layoutX="29.0" layoutY="62.0" prefHeight="104.0" prefWidth="311.0" text="0" textAlignment="RIGHT">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="29.0" prefHeight="23.0" prefWidth="54.0" text="CASIO">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="SolarPanel" layoutX="119.0" layoutY="21.0" prefHeight="40.0" prefWidth="110.0" textFill="#330000" />
+      <Label layoutX="268.0" layoutY="33.0" prefHeight="15.0" prefWidth="40.0" text="JS-40B" />
+      <Label layoutX="309.0" layoutY="23.0" prefHeight="15.0" prefWidth="30.0" text="14">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="311.0" layoutY="44.0" text="DIGITS">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="428.0" text="ON">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Button fx:id="TAXM" layoutX="218.0" layoutY="191.0" mnemonicParsing="false" onAction="#buttonTAXM_click" prefHeight="30.0" prefWidth="48.0" text="TAX-" textFill="#0e4a3a" />
+      <Button fx:id="TAXP" layoutX="284.0" layoutY="191.0" mnemonicParsing="false" onAction="#buttonTAXP_click" prefHeight="30.0" prefWidth="48.0" text="TAX+" textFill="#0e4a3a" />
+      <Slider layoutX="112.0" layoutY="199.0" prefHeight="14.0" prefWidth="93.0" />
+      <Slider layoutX="41.0" layoutY="199.0" prefHeight="14.0" prefWidth="54.0" />
+      <Label layoutX="48.0" layoutY="264.0" text="C4">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="114.0" layoutY="263.0" text="C3">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="179.0" layoutY="264.0" text="C2">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="237.0" layoutY="264.0" text="C1">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="289.0" layoutY="181.0" prefHeight="9.0" prefWidth="40.0" text="TAX RATE">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="187.0" prefHeight="9.0" prefWidth="71.0" text="4   3   2   1   0   ADD">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="188.0" prefHeight="9.0" prefWidth="40.0" text="F CUT 5/4">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+@font-face {
+    font-family: Pendule;
+    src: url('Pendule_Ornamental.ttf');
+}
+
+.Pane {
+	-fx-background-color: rgb(215, 194, 193);
+}
+
+.button {
+   	-fx-background-color: rgb(254,242,246);
+}
+
+#Display {
+	-fx-font-family: 'Pendule';
+	-fx-background-color: rgb(210,220,222);
+}
+
+#SolarPanel {
+	-fx-background-color: rgb(20, 0, 0);
+}
